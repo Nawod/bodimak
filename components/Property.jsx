@@ -11,6 +11,7 @@ const Property = ({property:{coverPhoto, price, rentFrequency, rooms, title, bat
     <Link href={`/property/${externalId}`} passHref>
         <Flex flexWrap="wrap" w="420px" p="5" paddingTop="0" justifyContent="flex-start" cursor="pointer" marginBottom="5">
             <Box>
+                <style jsx global>{`.image-wrapper { border-radius: 8px;}`}</style>
                 <Image className="image-wrapper" src={coverPhoto ? coverPhoto.url : DefaultImage} borderRadius='md' width={400} height={260} alt="house" />
             </Box>
             <Box w="full">

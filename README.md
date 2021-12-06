@@ -2,9 +2,12 @@
 
 A web application which create an environment for find and rent boarding houses as customers' requirements.
 
+![](./assests/images/prev.png)
+
 ## Technologies used
 
 - Next.JS
+- React
 - JSX
 - Chakra UI
 - Rapid API
